@@ -1,0 +1,64 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aqua;
+  /*background-color: #2A4365;*/
+  background-image: url('../images/background3.PNG'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust transparency as needed */
+  z-index: 0;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  z-index: 1; /* Ensure content is above the overlay */
+}
+
+.text-container {
+  flex: 0 0 70%;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.image-container {
+  flex: 0 0 30%;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.headin_name{
+  color: #000;
+  position: top center;
+  margin: bottom 200px; ;
+}
+
+.heading-title{
+  color: rgb(241, 244, 245);
+}
+
+.heading-text1{
+color:rgb(18, 17, 19) ;
+}
+
+.heading-text2{
+color: rgb(12, 12, 11);
+}
