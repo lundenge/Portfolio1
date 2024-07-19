@@ -4,6 +4,8 @@ import LandingSection from "./components/LandingSection";
 import EducationSection from "./components/EducationSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactMeSection from "./components/ContactMeSection";
+//import Profile from './components/Profile';
+import ProjectDescription from "./components/ProjectDescription";
 import Footer from "./components/Footer";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
@@ -15,6 +17,7 @@ function App() {
         <main>
           <Header />
           <LandingSection />
+          <ProjectDescription/>
           <EducationSection/>
           <ProjectsSection />
           <ContactMeSection />
