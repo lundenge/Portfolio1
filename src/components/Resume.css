@@ -1,0 +1,70 @@
+/* src/Resume.css */
+.resume-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .text-container {
+    flex: 2;
+    color: #333;
+  }
+  
+  .text-container h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .text-container h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .text-container ul {
+    padding-left: 20px;
+  }
+  
+  .text-container ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .image-container {
+      margin-bottom: 20px;
+      margin-right: 0;
+    }
+  }
+  

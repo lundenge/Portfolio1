@@ -4,7 +4,7 @@ import LandingSection from "./components/LandingSection";
 import EducationSection from "./components/EducationSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ContactMeSection from "./components/ContactMeSection";
-//import Profile from './components/Profile';
+import Resume from "./components/Resume";
 import ProjectDescription from "./components/ProjectDescription";
 import Footer from "./components/Footer";
 import { AlertProvider } from "./context/alertContext";
@@ -17,8 +17,9 @@ function App() {
         <main>
           <Header />
           <LandingSection />
-          <ProjectDescription/>
-          <EducationSection/>
+        
+          <Resume/>
+          
           <ProjectsSection />
           <ContactMeSection />
           <Footer />
