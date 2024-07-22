@@ -13,10 +13,10 @@ const Resume = () => {
         </div>
         <div className="text-container">
           <h2>Education</h2>
-          <h3>Bachelor of Science in Computer Engineering</h3>
-          <p>University of Livingstonia</p>
+          <h3>Bachelor's Degree  in Computer Engineering</h3>
+          <p>University of Livingstonia,</p>
           <p>Livingstonia, Malawi</p>
-          <p>September 2019 - November 2023</p>
+          <p>(September 2019 - November 2023)</p>
         </div>
       </div>
 
@@ -26,10 +26,10 @@ const Resume = () => {
         </div>
         <div className="text-container">
           <h2>Professional Experience</h2>
-          <h3>Head of Engineering Department</h3>
-          <p>ADAI CIRCLE</p>
+          <h3>ADAI CIRCLE</h3>
+          <p>Head of Engineering Department(June 2019 - Present)</p>
           <p>Blantyre, Malawi</p>
-          <p>June 2019 - Present</p>
+          <p></p>
           <ul>
             <li>Led a team of engineers in the design, development, and implementation of various software projects, increasing overall team efficiency by 30%.</li>
             <li>Spearheaded the development of a project management tool that reduced development time by 25%.</li>
