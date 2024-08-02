@@ -26,7 +26,7 @@ const LandingSection = () => (
   >
     
     <div className="content-container">
-      <div className="text-container">
+      <div className="text-containers">
         <VStack spacing={2} alignItems="flex-start">
           <Heading as="h1" size="2xl" className="headin_name">
             {greeting}

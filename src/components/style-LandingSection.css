@@ -32,7 +32,7 @@
   z-index: 1; /* Ensure content is above the overlay */
 }
 
-.text-container {
+.text-containers {
   flex: 0 0 70%;
   color: rgb(255, 255, 255);
   padding: 20px;
@@ -61,4 +61,43 @@ color:rgb(18, 17, 19) ;
 
 .heading-text2{
 color: rgb(12, 12, 11);
+}
+
+
+
+
+
+
+
+
+
+.image-container img {
+  border-radius: 130px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+  transform: perspective(500px) rotateY(15deg) rotateX(15deg);
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }

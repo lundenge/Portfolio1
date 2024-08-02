@@ -1,8 +1,9 @@
 import React from "react";
 import { Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
-import picProfile1 from "../images/logoLiving.png";
-import "./style-LandingSection.css";
+import livingstonia from "../images/livingstonia.jpg";
+//import "./style-LandingSection.css";
+import "./style_components/style_education.css";
 
 const greeting = "EDUCATION";
 const bio1 = "Bachelor of Science in Computer Engineering";
@@ -43,7 +44,7 @@ const EducationSection = () => (
         </VStack>
       </div>
       <div className="image-container">
-        <img src={picProfile1} alt="Profile" style={imageStyle} />
+        <img src={livingstonia} alt="Profile" style={imageStyle} />
       </div>
     </div>
    
