@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useFormik } from "formik";
+import './ContactMeSection.css';
 import {
   Box,
   Button,
@@ -54,42 +55,47 @@ const ContactMeSection = () => {
 
   return (
     <FullScreenSection
+      backgroundImage={require("../images/background3.PNG")}
       isDarkBackground
-      backgroundColor="#512DA8"
+      backgroundColor="transparent"
       py={16}
       spacing={8}
+      className="contact-section"
     >
       <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" id="contactme-section">
+        <Heading as="h1" id="contactme-section" color="white">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box p={6} rounded="md" w="100%" className="contact-form-container">
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
-                <FormLabel htmlFor="firstName">Name</FormLabel>
+                <FormLabel htmlFor="firstName" color="white">Name</FormLabel>
                 <Input
                   id="firstName"
                   name="firstName"
+                  bg="white"
                   {...formik.getFieldProps("firstName")}
                 />
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.email && formik.touched.email}>
-                <FormLabel htmlFor="email">Email Address</FormLabel>
+                <FormLabel htmlFor="email" color="white">Email Address</FormLabel>
                 <Input
                   id="email"
                   name="email"
                   type="email"
+                  bg="white"
                   {...formik.getFieldProps("email")}
                 />
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl>
-                <FormLabel htmlFor="type">Type of enquiry</FormLabel>
+                <FormLabel htmlFor="type" color="white">Type of enquiry</FormLabel>
                 <Select 
                   id="type" 
                   name="type"
+                  bg="white"
                   {...formik.getFieldProps("type")}
                 >
                   <option value="hireMe">Freelance project proposal</option>
@@ -98,16 +104,17 @@ const ContactMeSection = () => {
                 </Select>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.comment && formik.touched.comment}>
-                <FormLabel htmlFor="comment">Your message</FormLabel>
+                <FormLabel htmlFor="comment" color="white">Your message</FormLabel>
                 <Textarea
                   id="comment"
                   name="comment"
                   height={250}
+                  bg="white"
                   {...formik.getFieldProps("comment")}
                 />
                 <FormErrorMessage>{formik.errors.comment}</FormErrorMessage>
               </FormControl>
-              <Button type="submit" colorScheme="purple" width="full" isLoading={isLoading}>
+              <Button type="submit" colorScheme="blue" width="full" isLoading={isLoading}>
                 Submit
               </Button>
             </VStack>

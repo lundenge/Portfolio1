@@ -21,7 +21,8 @@ const EducationSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundColor="#2A4365"
+    backgroundImage={require("../images/background3.PNG")}
+    // backgroundColor="#2A4365"
     
    
   >
