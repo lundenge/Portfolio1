@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio1/static/css/main.8b4dcb6f.css",
-    "main.js": "/Portfolio1/static/js/main.a3aed66f.js",
+    "main.css": "/Portfolio1/static/css/main.06aec710.css",
+    "main.js": "/Portfolio1/static/js/main.0d713729.js",
     "static/js/111.ad1cef69.chunk.js": "/Portfolio1/static/js/111.ad1cef69.chunk.js",
     "static/media/picProfile1.jpg": "/Portfolio1/static/media/picProfile1.a7b67aeb42626f2d612a.jpg",
     "static/media/photo4.jpg": "/Portfolio1/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
@@ -19,12 +19,12 @@
     "static/media/livingstonia.jpg": "/Portfolio1/static/media/livingstonia.bfca030910f59a783114.jpg",
     "static/media/companyImage.jpg": "/Portfolio1/static/media/companyImage.fd4484379081a81edf01.jpg",
     "index.html": "/Portfolio1/index.html",
-    "main.8b4dcb6f.css.map": "/Portfolio1/static/css/main.8b4dcb6f.css.map",
-    "main.a3aed66f.js.map": "/Portfolio1/static/js/main.a3aed66f.js.map",
+    "main.06aec710.css.map": "/Portfolio1/static/css/main.06aec710.css.map",
+    "main.0d713729.js.map": "/Portfolio1/static/js/main.0d713729.js.map",
     "111.ad1cef69.chunk.js.map": "/Portfolio1/static/js/111.ad1cef69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b4dcb6f.css",
-    "static/js/main.a3aed66f.js"
+    "static/css/main.06aec710.css",
+    "static/js/main.0d713729.js"
   ]
 }
