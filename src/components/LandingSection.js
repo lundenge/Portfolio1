@@ -10,9 +10,9 @@ const bio2 = "As a dedicated and passionate software engineer, I thrive on desig
 const bio3 = "My expertise includes proficiency in multiple programming languages, database management, and cloud computing.";
 
 const imageStyle = {
-  borderRadius: '130px',
-  width: '300px',
-  height: '300px'
+  borderRadius: '50px',
+  width: '500px',
+  height: '500px'
 };
 
 const LandingSection = () => (

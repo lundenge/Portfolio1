@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import FullScreenSection from "./FullScreenSection";
-import { Box, Heading, Button, Text } from "@chakra-ui/react";
+import { Box, Heading, Button, Text, color } from "@chakra-ui/react";
 import Card from "./Card";
+import "./Project.css";
 
 const projects = [
   {
@@ -74,7 +75,7 @@ const ProjectsSection = () => {
         gridGap={8}
       >
         {projects.map((project, index) => (
-          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
+          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4} >
             <Box>
               <img src={project.getImageSrc()} alt={project.title} style={{ width: '100%' }} />
             </Box>

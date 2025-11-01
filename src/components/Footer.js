@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Theophile Lundenge Lelu • © 2024</p>
+          <p>Ir.Theophile Lundenge Lelu • © 2024</p>
         </Flex>
       </footer>
     </Box>
