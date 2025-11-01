@@ -73,9 +73,11 @@ const ProjectsSection = () => {
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
         gridGap={8}
+       
       >
         {projects.map((project, index) => (
-          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4} >
+          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}   border="1px"           // Add this to make the border visible
+        borderColor="black"  >
             <Box>
               <img src={project.getImageSrc()} alt={project.title} style={{ width: '100%' }} />
             </Box>
