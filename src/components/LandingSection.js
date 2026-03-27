@@ -21,7 +21,8 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground
     backgroundImage={require("../images/picProfile1.jpg")}
-    backgroundColor="#2A4365"
+   // backgroundColor="#2A4365"
+   
     
    
   >
@@ -44,7 +45,7 @@ const LandingSection = () => (
         </VStack>
       </div>
       <div className="image-container">
-        <img src={picProfile1} alt="Profile" style={imageStyle} />
+      
       </div>
     </div>
    

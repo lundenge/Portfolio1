@@ -3,9 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: aqua;
+ /* background-color: aqua;*/
   /*background-color: #2A4365;*/
-  background-image: url('../images/background3.PNG'); /* Ensure this path is correct */
+  /*background-image: url('../images/background3.PNG');  Ensure this path is correct */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,6 +94,7 @@ color: rgb(12, 12, 11);
 .text-container {
   flex: 1;
   margin-right: 20px;
+  color: white;
 }
 
 .image-container {

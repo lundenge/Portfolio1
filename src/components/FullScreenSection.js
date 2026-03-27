@@ -1,5 +1,5 @@
 import * as React from "react";
-import { VStack } from "@chakra-ui/react";
+import { color, VStack } from "@chakra-ui/react";
 
 /**
  * Illustrates the use of children prop and spread operator
@@ -23,9 +23,11 @@ const FullScreenSection = ({ children, isDarkBackground, backgroundImage, overla
     ? {
         padding: "40px 20px",
         fontFamily: "Arial, sans-serif",
-        backgroundColor: boxProps.backgroundColor || "#007BFF",
+       // backgroundColor: boxProps.backgroundColor || "#007BFF",
         textAlign: "center",
         position: "relative",
+        color: isDarkBackground ? "white" : "black",
+        
       }
     : {};
 
