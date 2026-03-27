@@ -20,7 +20,7 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
-    backgroundImage={require("../images/background3.PNG")}
+    backgroundImage={require("../images/picProfile1.jpg")}
     backgroundColor="#2A4365"
     
    
