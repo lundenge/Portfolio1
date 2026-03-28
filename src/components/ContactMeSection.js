@@ -69,7 +69,7 @@ const ContactMeSection = () => {
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
-                <FormLabel htmlFor="firstName" color="white">Name</FormLabel>
+                <FormLabel htmlFor="firstName" color="black">Name</FormLabel>
                 <Input
                   id="firstName"
                   name="firstName"
@@ -90,7 +90,7 @@ const ContactMeSection = () => {
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl>
-                <FormLabel htmlFor="type" color="white">Type of enquiry</FormLabel>
+                <FormLabel htmlFor="type" color="black">Type of enquiry</FormLabel>
                 <Select 
                   id="type" 
                   name="type"
@@ -103,7 +103,7 @@ const ContactMeSection = () => {
                 </Select>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.comment && formik.touched.comment}>
-                <FormLabel htmlFor="comment" color="white">Your message</FormLabel>
+                <FormLabel htmlFor="comment" color="black">Your message</FormLabel>
                 <Textarea
                   id="comment"
                   name="comment"
