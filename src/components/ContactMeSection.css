@@ -3,6 +3,11 @@
     font-family: Arial, sans-serif;
     position: relative;
     text-align: center;
+    color: #000 !important;
+}
+
+.contact-section, .contact-section * {
+  color: #000 !important;
 }
 
 .contact-section::before {

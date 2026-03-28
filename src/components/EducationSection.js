@@ -2,7 +2,7 @@ import React from "react";
 import { Heading, VStack } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 import livingstonia from "../images/livingstonia.jpg";
-//import "./style-LandingSection.css";
+import "./style-LandingSection.css";
 import "./style_components/style_education.css";
 
 const greeting = "EDUCATION";
@@ -20,10 +20,8 @@ const EducationSection = () => (
   <FullScreenSection
     justifyContent="center"
     alignItems="center"
-    isDarkBackground
+    isDarkBackground={false}
     // backgroundColor="#2A4365"
-    
-   
   >
     
     <div className="content-container">

@@ -47,15 +47,15 @@
 }
 
 .heading-title{
-  color: rgb(241, 244, 245);
+  color: #000;
 }
 
 .heading-text1{
-color:rgb(18, 17, 19) ;
+  color: #000;
 }
 
 .heading-text2{
-color: rgb(12, 12, 11);
+  color: #000;
 }
 
 
@@ -89,7 +89,7 @@ color: rgb(12, 12, 11);
 .text-container {
   flex: 1;
   margin-right: 20px;
-  color: white;
+  color: #000 !important;
 }
 
 .image-container {

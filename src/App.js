@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
+import ProjectDescription from "./components/ProjectDescription";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Resume/>
           <Skills/>
           <Project />
+          <ProjectDescription />
           
         
           
