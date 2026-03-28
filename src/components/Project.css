@@ -1,0 +1,9 @@
+Box {
+  /*  border: 2px solid #333;     solid border with dark gray color */
+  /*   border-radius: 8px;        rounded corners */
+    border-color: #2a2a2a;     /* specific border color */
+}
+
+.project:hover {
+    border-color: #007BFF;    /* change border color on hover */
+}

@@ -3,9 +3,15 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+<<<<<<< HEAD
  /* background-color: aqua;*/
   /*background-color: #2A4365;*/
   /*background-image: url('../images/background3.PNG');  Ensure this path is correct */
+=======
+  background-color: aqua;
+  /*background-color: #2A4365;*/
+  background-image: url('../images/background3.PNG'); /* Ensure this path is correct */
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,7 +100,10 @@ color: rgb(12, 12, 11);
 .text-container {
   flex: 1;
   margin-right: 20px;
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
 }
 
 .image-container {

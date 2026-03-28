@@ -11,6 +11,10 @@ const Card = ({ title, description, imageSrc }) => {
   <VStack
   w="100%"
   bg="white"
+<<<<<<< HEAD
+=======
+  
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
   color="black"
   borderRadius="lg"
   overflow="hidden"

@@ -10,9 +10,15 @@ const bio2 = "As a dedicated and passionate software engineer, I thrive on desig
 const bio3 = "My expertise includes proficiency in multiple programming languages, database management, and cloud computing.";
 
 const imageStyle = {
+<<<<<<< HEAD
   borderRadius: '130px',
   width: '300px',
   height: '300px'
+=======
+  borderRadius: '50px',
+  width: '500px',
+  height: '500px'
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
 };
 
 const LandingSection = () => (
@@ -20,9 +26,14 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
+<<<<<<< HEAD
     backgroundImage={require("../images/picProfile1.jpg")}
    // backgroundColor="#2A4365"
    
+=======
+    backgroundImage={require("../images/background3.PNG")}
+    backgroundColor="#2A4365"
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
     
    
   >
@@ -45,7 +56,11 @@ const LandingSection = () => (
         </VStack>
       </div>
       <div className="image-container">
+<<<<<<< HEAD
       
+=======
+        <img src={picProfile1} alt="Profile" style={imageStyle} />
+>>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
       </div>
     </div>
    
