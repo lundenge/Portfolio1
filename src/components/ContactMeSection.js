@@ -62,7 +62,7 @@ const ContactMeSection = () => {
       className="contact-section"
     >
       <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" id="contactme-section" color="white">
+        <Heading as="h1" id="contactme-section" color="black">
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%" className="contact-form-container">
@@ -79,7 +79,7 @@ const ContactMeSection = () => {
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.email && formik.touched.email}>
-                <FormLabel htmlFor="email" color="white">Email Address</FormLabel>
+                <FormLabel htmlFor="email" color="black">Email Address</FormLabel>
                 <Input
                   id="email"
                   name="email"
@@ -94,7 +94,7 @@ const ContactMeSection = () => {
                 <Select 
                   id="type" 
                   name="type"
-                  bg="white"
+                  bg="black"
                   {...formik.getFieldProps("type")}
                 >
                   <option value="hireMe">Freelance project proposal</option>
