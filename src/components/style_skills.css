@@ -1,11 +1,6 @@
 .skills-container {
     padding: 40px 20px;
     font-family: Arial, sans-serif;
-    background-color: #007BFF;
-    background-image: url('../images/background3.PNG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     position: relative;
     text-align: center;
   }
@@ -29,7 +24,7 @@
 
   .skills-section {
     /* make each section a card-like box and stretch to equal heights */
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: transparent;
     border-radius: 8px;
     padding: 20px;
     display: flex;

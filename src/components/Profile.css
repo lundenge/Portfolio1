@@ -6,26 +6,19 @@
     /* background-color: #484461; */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
     color: #fff;
-=======
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
   }
   
   .profile-container h1 {
     font-size: 24px;
     margin-bottom: 10px;
-<<<<<<< HEAD
+  .profile-container h1 {
     color: #fff;
-=======
-    color: #333;
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
   }
   
   .profile-container p {
     font-size: 16px;
     line-height: 1.5;
-<<<<<<< HEAD
     color: #fff;
     margin-bottom: 10px;
   }
@@ -44,9 +37,4 @@
     font-size: 16px;
     color: #fff;
   }
-=======
-    color: #666;
-    margin-bottom: 10px;
-  }
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
   

@@ -1,9 +1,5 @@
 import * as React from "react";
-<<<<<<< HEAD
-import { color, VStack } from "@chakra-ui/react";
-=======
 import { VStack } from "@chakra-ui/react";
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
 
 /**
  * Illustrates the use of children prop and spread operator
@@ -12,14 +8,7 @@ const FullScreenSection = ({ children, isDarkBackground, backgroundImage, overla
   // If backgroundImage is provided, apply sensible background styles on the outer container.
   // Accept either an imported asset (string URL) or a path string. The caller can pass
   // `backgroundImage={require('../images/background3.PNG')}` or a public URL.
-  const bgProps = backgroundImage
-    ? {
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }
-    : {};
+  const bgProps = {};
 
   // Default style snippet to apply when a background image is present.
   // Do not override explicit props from callers: merge defaults first, then bgProps, then boxProps.
@@ -27,17 +16,9 @@ const FullScreenSection = ({ children, isDarkBackground, backgroundImage, overla
     ? {
         padding: "40px 20px",
         fontFamily: "Arial, sans-serif",
-<<<<<<< HEAD
-       // backgroundColor: boxProps.backgroundColor || "#007BFF",
+        backgroundColor: "transparent",
         textAlign: "center",
         position: "relative",
-        color: isDarkBackground ? "white" : "black",
-        
-=======
-        backgroundColor: boxProps.backgroundColor || "#007BFF",
-        textAlign: "center",
-        position: "relative",
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
       }
     : {};
 

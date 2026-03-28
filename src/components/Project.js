@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import FullScreenSection from "./FullScreenSection";
-<<<<<<< HEAD
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
 import Card from "./Card";
-=======
-import { Box, Heading, Button, Text, color } from "@chakra-ui/react";
-import Card from "./Card";
 import "./Project.css";
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
 
 const projects = [
   {
@@ -64,7 +59,6 @@ const ProjectsSection = () => {
 
   return (
     <FullScreenSection
-      backgroundImage={require("../images/background3.PNG")}
       /*backgroundColor="#14532d"*/
       isDarkBackground
       p={8}
@@ -78,17 +72,9 @@ const ProjectsSection = () => {
         display="grid"
         gridTemplateColumns="repeat(2,minmax(0,1fr))"
         gridGap={8}
-<<<<<<< HEAD
       >
         {projects.map((project, index) => (
           <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
-=======
-       
-      >
-        {projects.map((project, index) => (
-          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}   border="1px"           // Add this to make the border visible
-        borderColor="black"  >
->>>>>>> d6f30320e6dce08cb55c8db29fafda6a572a0770
             <Box>
               <img src={project.getImageSrc()} alt={project.title} style={{ width: '100%' }} />
             </Box>

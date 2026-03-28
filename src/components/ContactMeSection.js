@@ -55,7 +55,6 @@ const ContactMeSection = () => {
 
   return (
     <FullScreenSection
-      backgroundImage={require("../images/background3.PNG")}
       isDarkBackground
       backgroundColor="transparent"
       py={16}
