@@ -5,6 +5,11 @@ Box {
     color: #000;
 }
 
-.project:hover {
+.project-card:hover {
     border-color: #007BFF;    /* change border color on hover */
+}
+
+.project-title,
+.project-description {
+  color: #000 !important;
 }
