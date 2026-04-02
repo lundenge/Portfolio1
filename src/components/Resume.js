@@ -13,7 +13,7 @@ const Resume = () => {
       backgroundColor="transparent"
     >
     <div className="resume-container">
-      <div className="section">
+      <div id="education-section" className="section">
         <div className="image-container">
           <img src={livingstonia} alt="University of Livingstonia" />
         </div>

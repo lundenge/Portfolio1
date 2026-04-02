@@ -18,6 +18,7 @@ const imageStyle = {
 
 const EducationSection = () => (
   <FullScreenSection
+    id="education-section"
     justifyContent="center"
     alignItems="center"
     isDarkBackground={false}
