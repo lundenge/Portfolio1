@@ -29,7 +29,7 @@ const Card = ({ title, description, imageSrc }) => {
     </Heading>
     <Text fontSize="sm">{description}</Text>
   </VStack>
-  <HStack px={4} pb={4} justify="space-between" w="20%">
+  <HStack px={4} pb={4} justify="space-between" w="20%" bg="blue.500" color="white">
     <Text fontSize="sm">See More</Text>
     <FontAwesomeIcon icon={faArrowRight} size="1x" />
   </HStack>

@@ -38,5 +38,5 @@
 /* Ensure text is visible on the background */
 .contact-form-container label,
 .contact-form-container h2 {
-    color: white !important;
+    color: #2596be;
 }
