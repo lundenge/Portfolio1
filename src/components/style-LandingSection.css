@@ -28,9 +28,10 @@
 }
 
 .text-containers {
-  flex: 0 0 70%;
+  flex: 1;
   color: rgb(255, 255, 255);
   padding: 20px;
+  text-align: center;
 }
 
 .image-container {
@@ -41,21 +42,21 @@
 }
 
 .headin_name{
-  color: #000;
+  color: #fff;
   position: top center;
   margin: bottom 200px; ;
 }
 
 .heading-title{
-  color: #000;
+  color: #fff;
 }
 
 .heading-text1{
-  color: #000;
+  color: #fff;
 }
 
 .heading-text2{
-  color: #000;
+  color: #fff;
 }
 
 

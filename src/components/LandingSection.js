@@ -20,6 +20,7 @@ const LandingSection = () => (
     justifyContent="center"
     alignItems="center"
     isDarkBackground
+    backgroundImage={picProfile1}
    // backgroundColor="#2A4365"
    
     
@@ -28,7 +29,7 @@ const LandingSection = () => (
     
     <div className="content-container">
       <div className="text-containers">
-        <VStack spacing={2} alignItems="flex-start">
+        <VStack spacing={2} alignItems="center">
           <Heading as="h1" size="2xl" className="headin_name">
             {greeting}
           </Heading>
@@ -42,9 +43,6 @@ const LandingSection = () => (
             {bio3}
           </Heading>
         </VStack>
-      </div>
-      <div className="image-container">
-        <img src={picProfile1} alt="Profile" style={imageStyle} />
       </div>
     </div>
    
