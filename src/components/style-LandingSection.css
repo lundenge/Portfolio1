@@ -3,12 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: aqua;
-  /*background-color: #2A4365;*/
-  background-image: url('../images/background3.PNG'); /* Ensure this path is correct */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: transparent;
   position: relative;
 }
 
@@ -18,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust transparency as needed */
+  background-color: transparent;
   z-index: 0;
 }
 
@@ -33,9 +28,10 @@
 }
 
 .text-containers {
-  flex: 0 0 70%;
+  flex: 1;
   color: rgb(255, 255, 255);
   padding: 20px;
+  text-align: center;
 }
 
 .image-container {
@@ -46,21 +42,21 @@
 }
 
 .headin_name{
-  color: #000;
+  color: #fff;
   position: top center;
   margin: bottom 200px; ;
 }
 
 .heading-title{
-  color: rgb(241, 244, 245);
+  color: #fff;
 }
 
 .heading-text1{
-color:rgb(18, 17, 19) ;
+  color: #fff;
 }
 
 .heading-text2{
-color: rgb(12, 12, 11);
+  color: #fff;
 }
 
 
@@ -94,6 +90,7 @@ color: rgb(12, 12, 11);
 .text-container {
   flex: 1;
   margin-right: 20px;
+  color: #000 !important;
 }
 
 .image-container {

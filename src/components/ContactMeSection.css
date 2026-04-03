@@ -1,13 +1,13 @@
 .contact-section {
       padding: 40px 20px;
     font-family: Arial, sans-serif;
-    background-color: #007BFF;
-    background-image: url('../images/background3.PNG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     position: relative;
     text-align: center;
+    color: #000 !important;
+}
+
+.contact-section, .contact-section * {
+  color: #000 !important;
 }
 
 .contact-section::before {
@@ -38,5 +38,5 @@
 /* Ensure text is visible on the background */
 .contact-form-container label,
 .contact-form-container h2 {
-    color: white !important;
+    color: #2596be;
 }

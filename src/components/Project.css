@@ -1,0 +1,15 @@
+Box {
+  /*  border: 2px solid #333;     solid border with dark gray color */
+  /*   border-radius: 8px;        rounded corners */
+    border-color: #2a2a2a;     /* specific border color */
+    color: #000;
+}
+
+.project-card:hover {
+    border-color: #007BFF;    /* change border color on hover */
+}
+
+.project-title,
+.project-description {
+  color: #000 !important;
+}

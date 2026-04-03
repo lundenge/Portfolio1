@@ -8,14 +8,12 @@ const FullScreenSection = ({ children, isDarkBackground, backgroundImage, overla
   // If backgroundImage is provided, apply sensible background styles on the outer container.
   // Accept either an imported asset (string URL) or a path string. The caller can pass
   // `backgroundImage={require('../images/background3.PNG')}` or a public URL.
-  const bgProps = backgroundImage
-    ? {
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }
-    : {};
+  const bgProps = backgroundImage ? {
+    backgroundImage: `url(${backgroundImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  } : {};
 
   // Default style snippet to apply when a background image is present.
   // Do not override explicit props from callers: merge defaults first, then bgProps, then boxProps.
@@ -23,7 +21,7 @@ const FullScreenSection = ({ children, isDarkBackground, backgroundImage, overla
     ? {
         padding: "40px 20px",
         fontFamily: "Arial, sans-serif",
-        backgroundColor: boxProps.backgroundColor || "#007BFF",
+        backgroundColor: "transparent",
         textAlign: "center",
         position: "relative",
       }

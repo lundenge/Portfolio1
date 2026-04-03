@@ -10,11 +10,10 @@ import it from '../images/it.PNG'
 const Resume = () => {
   return (
     <FullScreenSection
-      backgroundImage={require("../images/background3.PNG")}
-      backgroundColor="#14532d"
+      backgroundColor="transparent"
     >
     <div className="resume-container">
-      <div className="section">
+      <div id="education-section" className="section">
         <div className="image-container">
           <img src={livingstonia} alt="University of Livingstonia" />
         </div>

@@ -55,22 +55,21 @@ const ContactMeSection = () => {
 
   return (
     <FullScreenSection
-      backgroundImage={require("../images/background3.PNG")}
-      isDarkBackground
+      isDarkBackground={false}
       backgroundColor="transparent"
       py={16}
       spacing={8}
       className="contact-section"
     >
       <VStack w="1024px" p={32} alignItems="flex-start">
-        <Heading as="h1" id="contactme-section" color="white">
+        <Heading as="h1" id="contactme-section" color="black">
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%" className="contact-form-container">
           <form onSubmit={formik.handleSubmit}>
             <VStack spacing={4}>
               <FormControl isInvalid={!!formik.errors.firstName && formik.touched.firstName}>
-                <FormLabel htmlFor="firstName" color="white">Name</FormLabel>
+                <FormLabel htmlFor="firstName" color="black">Name</FormLabel>
                 <Input
                   id="firstName"
                   name="firstName"
@@ -80,7 +79,7 @@ const ContactMeSection = () => {
                 <FormErrorMessage>{formik.errors.firstName}</FormErrorMessage>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.email && formik.touched.email}>
-                <FormLabel htmlFor="email" color="white">Email Address</FormLabel>
+                <FormLabel htmlFor="email" color="black">Email Address</FormLabel>
                 <Input
                   id="email"
                   name="email"
@@ -91,7 +90,7 @@ const ContactMeSection = () => {
                 <FormErrorMessage>{formik.errors.email}</FormErrorMessage>
               </FormControl>
               <FormControl>
-                <FormLabel htmlFor="type" color="white">Type of enquiry</FormLabel>
+                <FormLabel htmlFor="type" color="black">Type of enquiry</FormLabel>
                 <Select 
                   id="type" 
                   name="type"
@@ -104,7 +103,7 @@ const ContactMeSection = () => {
                 </Select>
               </FormControl>
               <FormControl isInvalid={!!formik.errors.comment && formik.touched.comment}>
-                <FormLabel htmlFor="comment" color="white">Your message</FormLabel>
+                <FormLabel htmlFor="comment" color="black">Your message</FormLabel>
                 <Textarea
                   id="comment"
                   name="comment"

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading, Button, Text } from "@chakra-ui/react";
 import Card from "./Card";
+import "./Project.css";
 
 const projects = [
   {
@@ -58,7 +59,6 @@ const ProjectsSection = () => {
 
   return (
     <FullScreenSection
-      backgroundImage={require("../images/background3.PNG")}
       /*backgroundColor="#14532d"*/
       isDarkBackground
       p={8}
@@ -74,15 +74,15 @@ const ProjectsSection = () => {
         gridGap={8}
       >
         {projects.map((project, index) => (
-          <Box key={project.title} borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
+          <Box key={project.title} className="project-card" borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
             <Box>
               <img src={project.getImageSrc()} alt={project.title} style={{ width: '100%' }} />
             </Box>
             <Box p="6">
               <Box display="flex" alignItems="baseline">
-                <Heading as="h2" size="md" mb={2}>{project.title}</Heading>
+                <Heading as="h2" size="md" mb={2} color="black" className="project-title">{project.title}</Heading>
               </Box>
-              <Text>
+              <Text color="black" className="project-description">
                 {visibleDescriptions[index]
                   ? project.description
                   : `${project.description.substring(0, 100)}...`}
