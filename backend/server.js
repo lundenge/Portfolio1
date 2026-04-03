@@ -24,16 +24,17 @@ app.post('/send', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'theophilelundenge@gmail.com',
+    to: 'lundengel@gmail.com',
     subject: `New Contact Form Submission - ${type}`,
     text: `Name: ${firstName}\nEmail: ${email}\nMessage: ${comment}`,
   };
 
   try {
     await transporter.sendMail(mailOptions);
+    console.log('Email sent successfully');
     res.status(200).send({ type: 'success', message: 'Message sent successfully' });
   } catch (error) {
-    console.error(error);
+    console.error('Email send error:', error);
     res.status(500).send({ type: 'error', message: 'Failed to send message' });
   }
 });
