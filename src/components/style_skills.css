@@ -55,6 +55,18 @@
     padding: 3px 0;
     color: black;
   }
+
+  .skills-section{
+    background: linear-gradient(to right, pink, white);
+  }
+
+  .skills-section:hover {
+    background: linear-gradient(to right, purple, pink);
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+    width: 400px;
+    height: 300px;
+  }
   
   .skills-section ul li::before {
     content: '•';
