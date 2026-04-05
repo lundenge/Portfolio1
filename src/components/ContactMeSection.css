@@ -25,6 +25,7 @@
 .contact-section > * {
     position: relative;
     z-index: 2;
+    background: linear-gradient(to right, pink, white);
 }
 
 /* Style form elements for better visibility */

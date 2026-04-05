@@ -94,6 +94,9 @@
     margin: 20px 0;
     text-align: left;
   }
+  .projects-descriptions-wrapper .project-container {
+    background: linear-gradient(to right, pink, white);
+  }
 
   .project-metrics h4 {
     font-size: 16px;
