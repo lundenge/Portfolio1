@@ -3,6 +3,7 @@ Box {
   /*   border-radius: 8px;        rounded corners */
     border-color: #2a2a2a;     /* specific border color */
     color: #000;
+    background: linear-gradient(to right, purple, pink);
 }
 
 .project-card:hover {
@@ -12,4 +13,12 @@ Box {
 .project-title,
 .project-description {
   color: #000 !important;
+}
+
+.project-card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, purple, pink);
 }
