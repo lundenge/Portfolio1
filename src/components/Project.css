@@ -20,5 +20,5 @@ Box {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, purple, pink);
+  background: linear-gradient(to right, pink, white);
 }
