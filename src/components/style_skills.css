@@ -3,6 +3,7 @@
     font-family: Arial, sans-serif;
     position: relative;
     text-align: center;
+    
   }
   
   .skills-container h2 {
@@ -20,6 +21,7 @@
     max-width: 1400px;
     margin: 0 auto 20px;
     align-items: stretch; /* ensure children stretch to equal height */
+    background: linear-gradient(to right, purple, pink);
   }
 
   .skills-section {

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import "./style_components/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
